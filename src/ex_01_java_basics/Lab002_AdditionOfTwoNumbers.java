@@ -2,7 +2,7 @@ package ex_01_java_basics;
 
 import java.util.Scanner;
 
-public class Lab001_AdditionOfTwoNumbers {
+public class Lab002_AdditionOfTwoNumbers {
     public static void main(String[] args) {
         int sum = 0;
         Scanner sc = new Scanner(System.in);
