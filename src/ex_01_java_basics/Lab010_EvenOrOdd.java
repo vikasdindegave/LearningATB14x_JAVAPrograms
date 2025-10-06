@@ -13,5 +13,9 @@ public class Lab010_EvenOrOdd {
         }else {
             System.out.println(num+" is a odd number");
         }
+
+        //Ternary operator.
+        String result = num%2==0 ? "even" : "odd";
+        System.out.println(result);
     }
 }

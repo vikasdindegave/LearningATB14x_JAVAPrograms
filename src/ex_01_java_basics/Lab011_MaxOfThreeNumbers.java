@@ -12,8 +12,8 @@ public class Lab011_MaxOfThreeNumbers {
         int n3 = sc.nextInt();
 
         //by using Ternary operator
-//        int maxNum = (n1 > n2) ? ((n1 > n3) ? n1 : n3) : ((n2 > n3) ? n2 : n3);
-//        System.out.println("Max of three numbers is "+maxNum);
+        int maxNum = (n1 > n2) ? ((n1 > n3) ? n1 : n3) : ((n2 > n3) ? n2 : n3);
+        System.out.println("Max of three numbers is "+maxNum);
         
         //by using if else condition
         
